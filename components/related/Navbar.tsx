@@ -32,7 +32,7 @@ const Navbar = () => {
     console.log('navItem',navItem);
 
     return (
-    <div className=' bg-dark-1 max-w-6xl mx-auto max-lg:hidden'>
+    <div className=' bg-dark-1 6xl mx-auto max-lg:hidden'>
         <div className=' fixed top-0 bg-dark-1 shadow-md overflow-hidden w-full max-w-6xl z-50 px-5 py-6'>
             <div className=' flex-between'>
                 <div className=' flex-between gap-6'>

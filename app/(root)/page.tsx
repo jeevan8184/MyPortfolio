@@ -11,13 +11,12 @@ import Courses from './courses/page'
 import Acheivements from './acheivements/page'
 import Projects from './projects/page'
 import Projects1 from './projects1/page'
+import Footer from '@/components/related/Footer'
 
 const page = () => {
   
   return (
-    <div className="relative w-full pb-20 bg-home bg-center bg-contain">
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="absolute inset-0 bg-dark-1"></div>
+    <div className="relative w-full bg-home bg-center bg-contain">
       <div className="relative z-10 w-full text-text1 max-w-6xl mx-auto py-24 px-2">
         <Navbar />
         <MobileNav />
@@ -32,7 +31,7 @@ const page = () => {
                 <div className="flex-center gap-4">
                   {SocialIcons.map((link, i) => (
                     <Link
-                      href={link.url}
+                      href={link.url!}
                       key={i}
                       className="hover:bg-white group rounded-xl size-10 flex-center ring-0 ring-offset-1"
                     >
@@ -75,6 +74,9 @@ const page = () => {
             <ContactMe />
           </section>
         </div>
+      </div>
+      <div className=' w-full'>
+        <Footer />
       </div>
     </div>
   )

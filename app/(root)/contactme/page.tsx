@@ -2,9 +2,7 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { SocialIcons } from '@/constants';
 import Image from 'next/image';
-import Link from 'next/link';
 import React, { FormEvent, useEffect, useRef, useState } from 'react'
 import { MdOutlineEmail } from "react-icons/md";
 import emailjs from '@emailjs/browser';
@@ -103,16 +101,6 @@ const ContactMe = () => {
               <p className=' text-[17px] leading-relaxed font-semibold'>Mail</p>
               <p className=' text-gray-300'>jeevanjatavath7@gmail.com</p>
             </div>
-          </div>
-          <div className=' flex-center gap-4'>
-            {SocialIcons.map((link,i)=> (
-              <Link 
-                href={link.url!} 
-                key={i}
-                className=' hover:bg-white group rounded-xl size-10 flex-center ring-0 ring-offset-1'>
-                {<link.Icon className=' size-6 group-hover:text-black' />}
-              </Link>
-            ))}
           </div>
         </div>
       </div>
