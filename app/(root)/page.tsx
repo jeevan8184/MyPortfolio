@@ -1,3 +1,4 @@
+"use client"
 import HomePage from '@/components/related/Home'
 import React from 'react'
 import Skills from './skills/page'
@@ -12,8 +13,10 @@ import Acheivements from './acheivements/page'
 import Projects from './projects/page'
 import Projects1 from './projects1/page'
 import Footer from '@/components/related/Footer'
+import { useRouter } from 'next/navigation'
 
 const page = () => {
+  const router=useRouter();
   
   return (
     <div className="relative w-full bg-home bg-center bg-contain">
@@ -30,13 +33,13 @@ const page = () => {
               <div className="flex flex-col gap-8 py-6 w-full md:hidden">
                 <div className="flex-center gap-4">
                   {SocialIcons.map((link, i) => (
-                    <Link
-                      href={link.url!}
+                    <div
                       key={i}
+                      onClick={()=> router.push(link.url!)}
                       className="hover:bg-white group rounded-xl size-10 flex-center ring-0 ring-offset-1"
                     >
                       {<link.Icon className="size-6 group-hover:text-black" />}
-                    </Link>
+                    </div>
                   ))}
                 </div>
                 <div className="flex-center">

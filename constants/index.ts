@@ -86,22 +86,22 @@ export const SocialIcons=[
     {
         label:'Github',
         Icon:FaGithub,
-        url:process.env.NEXT_PUBLIC_GITHUB
+        url:"https://github.com/jeevan8184"
     },
     {
         label:'Instagram',
         Icon:FaInstagram,
-        url:process.env.NEXT_PUBLIC_INSTAGRAM
+        url:"https://www.instagram.com/jatavathjeevan/"
     },
     {
         label:'LinkedIn',
         Icon:FaLinkedinIn,
-        url:process.env.NEXT_PUBLIC_LINKEDIN
+        url:"https://www.linkedin.com/in/jatavath-jeevan-7a707824a/"
     },
     {
         label:'Leetcode',
         Icon:SiLeetcode,
-        url:process.env.NEXT_PUBLIC_LEETCODE
+        url:"https://leetcode.com/u/HELLO8/"
     },
 ]
 

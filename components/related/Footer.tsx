@@ -1,8 +1,11 @@
 import { MainItems, navItems, SocialIcons } from '@/constants'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
 const Footer = () => {
+    const router=useRouter();
+
   return (
     <div className=' w-full bg-[#1E90FF] text-white py-12 pb-16'>
         <div className=' flex-center flex-col'>
@@ -28,13 +31,13 @@ const Footer = () => {
                 </div>
                 <div className=' flex-center gap-4 overflow-hidden py-6'>
                     {SocialIcons.map((link,i)=> (
-                        <Link 
-                            href={link.url!} 
+                        <div 
                             key={i}
+                            onClick={()=> router.push(link.url!)}
                             className=' overflow-hidden hover:bg-white bg-black flex-center border-0 group rounded-xl size-10 flex-'
                         >
                             {<link.Icon className=' size-6 group-hover:text-black' />}
-                        </Link>
+                        </div>
                     ))}
                 </div>
                 <p className=' text-sm text-black pt-6 font-medium'>© ET 2024. All rights reserved.</p>
