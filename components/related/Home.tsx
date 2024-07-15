@@ -33,7 +33,7 @@ const HomePage = () => {
                 ))}
               </div>
               <div className=''>
-                <Link href='#' className=' link py-3'>Download CV</Link>
+                <Link href={process.env.NEXT_PUBLIC_CV!} className=' link py-3'>Download CV</Link>
               </div>
             </div>
           </div>

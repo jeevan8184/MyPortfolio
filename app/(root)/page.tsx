@@ -43,7 +43,7 @@ const page = () => {
                   ))}
                 </div>
                 <div className="flex-center">
-                  <Link href="#" className="link py-2.5 ">
+                  <Link href={process.env.NEXT_PUBLIC_CV!} className="link py-2.5 ">
                     Download CV
                   </Link>
                 </div>
