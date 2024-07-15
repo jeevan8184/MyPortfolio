@@ -7,7 +7,7 @@ const NewFile1 = () => {
   return (
        <div className=' flex flex-col gap-4'>
          <div className=' grid grid-cols-2 max-md:grid-cols-1  p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
-            <div className='relative group border border-gray-900 h-80 xl:w-[500px] w-[350px] mx-auto rounded-xl aspect-square'>
+            <div className='relative group border border-gray-900 h-80 max-sm:w-full xl:w-[500px] w-[350px] mx-auto rounded-xl aspect-square'>
               <Image 
                 src='/assets/projects/portfolio.png' 
                 className=' bg-center bg-contain rounded-xl group-hover:scale-105 '

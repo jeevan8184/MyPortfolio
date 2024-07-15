@@ -9,7 +9,7 @@ const Acheivements = () => {
       <h1 className=' text-4xl text-red-500 max-sm:flex-center'>Acheivements</h1>
       <div className='  grid grid-cols-2 gap-10 max-sm:gap-7 max-sm:grid-cols-1 w-full pl-4'>
         {AcheivementItems.map((item,i)=> (
-          <div className=' max-sm:flex-center w-full max-sm:px-4 overflow-hidden'>
+          <div className=' max-sm:flex-center w-full overflow-hidden'>
             <div 
               className='grid grid-cols-1 pb-8 max-sm:flex w-11/12 max-sm:flex-center max-sm:flex-col px-2 py-1 gap-10 border-2 max-sm:gap-7 border-gray-500 h-full rounded-2xl ' 
               key={i}>

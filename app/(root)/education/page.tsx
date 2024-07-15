@@ -13,7 +13,7 @@ const Education = () => {
          {EducationItems.map((item,i)=> (
            <div className=' max-sm:flex-center' key={i}>
                <div 
-                  className=' hover:bg-gray-950 grid grid-cols-1 max-sm:flex max-sm:flex-col max-sm:flex-center max-sm:w-10/12 p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
+                  className=' hover:bg-gray-950 grid grid-cols-1 max-sm:flex max-sm:flex-col max-sm:flex-center max-sm:w-11/12 p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
                   <div className=' w-full h-full flex-center'>
                      <div className='relative flex-center rounded-2xl aspect-square h-full w-full max-sm:w-11/12 max-sm:h-11/12'>
                         <Image

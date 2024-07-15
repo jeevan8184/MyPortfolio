@@ -4,7 +4,7 @@ import React from 'react'
 
 const NewFile2 = () => {
   return (
-    <div className=' grid grid-cols-2 max-sm:grid-cols-1 max-md:flex max-md:flex-col-reverse p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
+    <div className=' grid grid-cols-2 max-sm:grid-cols-1 max-md:flex max-md:flex-col-reverse p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl overflow-hidden'>
         <div className=' max-sm:px-2 flex justify-between flex-col pb-6'>
             <div className=' flex flex-col gap-2'>
                 <h3 className=' text-2xl font-semibold underline underline-offset-4 leading-relaxed'>Password Generator</h3>
@@ -20,7 +20,7 @@ const NewFile2 = () => {
                 <Link href='https://github.com/jeevan8184/password' className='link'>Github</Link>
             </div>
         </div>
-        <div className='relative border group border-gray-900 h-80 xl:w-[500px] w-[350px] mx-auto rounded-xl aspect-square'>
+        <div className='relative border group border-gray-900 h-80 max-sm:w-full xl:w-[500px] w-[350px] mx-auto rounded-xl aspect-square'>
             <Image
                 src='/assets/projects/password.png'
                 alt='image'
