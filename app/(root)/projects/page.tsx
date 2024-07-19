@@ -10,7 +10,7 @@ const Projects = () => {
 
   return (
     <div className=' px-2 flex flex-col gap-8 z-40 text-white'>
-        <h1 className=' text-4xl text-red-500'>Projects</h1>        
+        <h1 className=' text-4xl text-red-500 z-40'>Projects</h1>        
         <div className=' flex flex-col gap-4 z-40 text-white'>
             <NewFile5 />
             <NewFile2 />

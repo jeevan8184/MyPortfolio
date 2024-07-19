@@ -8,7 +8,7 @@ const Education = () => {
   
   return (
    <div className=' px-2 flex flex-col gap-8 z-40 text-white'>
-    <h1 className=' text-4xl text-red-500 max-sm:flex-center'>Education</h1>
+    <h1 className=' text-4xl text-red-500 max-sm:flex-center z-40'>Education</h1>
       <div className=' grid grid-cols-3 gap-5 max-sm:grid-cols-1 max-md:grid-cols-2  max-lg::grid-cols-2'>
          {EducationItems.map((item,i)=> (
            <div className=' max-sm:flex-center z-40 text-white' key={i}>

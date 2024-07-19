@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div className=' px-2'>
       <div className=' flex flex-col gap-8'>
-        <h1 className=' text-red-500 text-4xl'>Skills</h1>
+        <h1 className=' text-red-500 text-4xl z-40'>Skills</h1>
         <div className=' grid grid-cols-2 max-md:grid-cols-1 gap-10'>
 
           <div 
