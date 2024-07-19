@@ -4,9 +4,9 @@ import React from 'react'
 
 const Courses = () => {
   return (
-    <div className=' px-2 flex flex-col gap-8 w-full'>
-        <h1 className=' text-red-500 text-4xl max-sm:flex-center'>Certifications</h1>
-        <div className=' flex-center'>
+    <div className=' px-2 flex flex-col gap-8 w-full z-40 text-white'>
+        <h1 className=' text-red-500 text-4xl max-sm:flex-center z-40'>Certifications</h1>
+        <div className=' flex-center z-40 text-white'>
             <div className=' hover:bg-gray-950 max-sm:w-11/12 max-md:w-8/12 max-sm:bg-black max-md:pb-10 grid grid-cols-2 max-md:grid-cols-1 p-3 max-sm:p-2 rounded-2xl border border-gray-200 gap-8'>
                 <div className=' group relative aspect-square max-sm:w-11/12 max-lg:w-96 w-[450px] h-72 flex-cener max-md:mx-auto border rounded-xl border-gray-800 '>
                     <Image

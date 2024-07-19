@@ -5,7 +5,7 @@ import NewFile2 from './NewFile2'
 
 const NewFile1 = () => {
   return (
-       <div className=' flex flex-col gap-4'>
+       <div className=' flex flex-col gap-4 z-40 text-white'>
          <div className=' grid grid-cols-2 max-md:grid-cols-1  p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
             <div className='relative group border border-gray-900 h-80 max-sm:w-full xl:w-[500px] w-[350px] mx-auto rounded-xl aspect-square'>
               <Image 

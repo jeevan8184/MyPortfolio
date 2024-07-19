@@ -46,10 +46,10 @@ const ContactMe = () => {
   },[message])
 
   return (
-    <div className=' px-2 flex flex-col gap-8'>
-      <h1 className=' text-4xl text-red-500'>Contact Me</h1>
-      <div className=" px-2 grid grid-cols-2 max-md:grid-cols-1 gap-8">
-        <div>
+    <div className=' px-2 flex flex-col gap-8 z-40 text-white'>
+      <h1 className=' text-4xl text-red-500 z-40'>Contact Me</h1>
+      <div className=" px-2 grid grid-cols-2 max-md:grid-cols-1 gap-8 z-40 text-white">
+        <div className=' z-40 text-white'>
           <form onSubmit={handleSubmit} ref={formRef} className=' flex flex-col gap-6'>
             <Input
               className='fields focus-visible:ring-offset-0'

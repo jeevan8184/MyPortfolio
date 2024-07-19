@@ -9,7 +9,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const NewFile = () => {
   
   return (
-        <div className=' grid grid-cols-2 max-md:flex max-md:flex-col-reverse max-md:grid-cols-1 p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
+        <div className=' z-40 text-white grid grid-cols-2 max-md:flex max-md:flex-col-reverse max-md:grid-cols-1 p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
             <div className=' max-sm:px-2 flex justify-between flex-col pb-6'>
               <div className=' flex flex-col gap-2'>
                   <h3 className=' text-2xl font-semibold underline underline-offset-4 leading-relaxed'>Social Media Platform</h3>

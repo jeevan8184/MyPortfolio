@@ -14,18 +14,20 @@ import Projects from './projects/page'
 import Projects1 from './projects1/page'
 import Footer from '@/components/related/Footer'
 import { useRouter } from 'next/navigation'
+import ParticlesComponent from '@/components/related/Particles'
 
 const page = () => {
   const router=useRouter();
   
   return (
-    <div className="relative w-full bg-home bg-center bg-contain">
-      <div className="relative z-10 w-full text-text1 max-w-6xl mx-auto py-24 px-2">
+    <div className="relative w-full bg-home bg-center bg-contain z-40">
+      <div className="relative  w-full text-text1 max-w-6xl mx-auto py-24 px-2 z-40">
         <Navbar />
         <MobileNav />
+        <ParticlesComponent id="particle" />
         <section className="pb-8 lg:pb-14" id="home">
-          <div className="flex flex-col">
-            <div className="flex flex-col gap-6 pb-6">
+          <div className="flex flex-col z-40">
+            <div className="flex flex-col gap-6 pb-6 z-40">
               <div className="flex-center flex-col">
                 <p className="text-3xl font-semibold">Hello I am</p>
                 <h1 className="text-4xl font-bold text-red-500">Jeevan Jatavath</h1>
@@ -52,7 +54,7 @@ const page = () => {
             <HomePage />
           </div>
         </section>
-        <div className="flex flex-col gap-20">
+        <div className="flex flex-col gap-20 z-40 text-white">
           <section id="skills">
             <Skills />
           </section>
@@ -78,7 +80,7 @@ const page = () => {
           </section>
         </div>
       </div>
-      <div className=' w-full'>
+      <div className=' w-full z-40 bg-yellow-400'>
         <Footer />
       </div>
     </div>

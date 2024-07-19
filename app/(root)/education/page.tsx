@@ -7,11 +7,11 @@ import React from 'react'
 const Education = () => {
   
   return (
-   <div className=' px-2 flex flex-col gap-8'>
+   <div className=' px-2 flex flex-col gap-8 z-40 text-white'>
     <h1 className=' text-4xl text-red-500 max-sm:flex-center'>Education</h1>
       <div className=' grid grid-cols-3 gap-5 max-sm:grid-cols-1 max-md:grid-cols-2  max-lg::grid-cols-2'>
          {EducationItems.map((item,i)=> (
-           <div className=' max-sm:flex-center' key={i}>
+           <div className=' max-sm:flex-center z-40 text-white' key={i}>
                <div 
                   className=' hover:bg-gray-950 grid grid-cols-1 max-sm:flex max-sm:flex-col max-sm:flex-center max-sm:w-11/12 p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
                   <div className=' w-full h-full flex-center'>

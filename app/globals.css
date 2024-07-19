@@ -1,4 +1,4 @@
-@tailwind base;
+  @tailwind base;
   @tailwind components;
   @tailwind utilities;
 
@@ -147,9 +147,10 @@
     .text {
       animation: newAnime 1s ease-in-out;
     }
-   
+
   }
 
+  /* 1E90FF */
   @layer utilities {
     .fields{
       @apply bg-dark-1 rounded-xl placeholder:text-gray-400 text-[16px] px-6 py-6 max-md:w-full focus-visible:ring-0 focus-visible:ring-offset-0 

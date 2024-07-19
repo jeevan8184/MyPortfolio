@@ -14,6 +14,8 @@
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-slot": "^1.0.2",
     "@radix-ui/react-toast": "^1.1.5",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.5.0",
     "animate.css": "^4.1.1",
     "chart.js": "^4.4.3",
     "class-variance-authority": "^0.7.0",
@@ -29,13 +31,15 @@
     "react-easy-swipe": "^0.0.23",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.2.1",
+    "react-particles": "^2.12.2",
     "react-responsive-carousel": "^3.2.23",
     "react-simple-typewriter": "^5.0.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.4",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "tsparticles-slim": "^2.12.0"
   },
   "devDependencies": {
     "@types/next": "^9.0.0",

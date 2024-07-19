@@ -9,7 +9,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const NewFile6 = () => {
   
   return (
-        <div className=' grid grid-cols-2 max-md:grid-cols-1 p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
+        <div className=' z-40 text-white grid grid-cols-2 max-md:grid-cols-1 p-4 gap-10 border-2 border-gray-500 w-full h-full rounded-2xl'>
             <div className=' w-full group rounded-xl'>
               <Carousel  
                 showThumbs={false} 

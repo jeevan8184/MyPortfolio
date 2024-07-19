@@ -7,7 +7,7 @@ import NewFile6 from "@/components/related/NewFile6"
 const Projects1 = () => {
 
   return (
-        <div className=' flex flex-col gap-4 px-2'>
+        <div className=' flex flex-col gap-4 px-2 z-40 text-white'>
             <NewFile1 />
             <NewFile />
             <NewFile6 />

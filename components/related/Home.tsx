@@ -7,7 +7,7 @@ import Link from 'next/link'
 const HomePage = () => {
 
   return (
-    <div className=' py-9'>
+    <div className=' py-9 text-white z-40'>
       <div className=' flex justify-between max-md:flex-col-reverse items-center max-sm:flex-center gap-8'>
           <div className=' flex-between flex-col h-full px-2 lg:gap-16 gap-4'>
             <div className=' flex flex-col gap-4 animate text'>
