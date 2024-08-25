@@ -96,7 +96,7 @@ export const SocialIcons=[
     {
         label:'LinkedIn',
         Icon:FaLinkedinIn,
-        url:"https://www.linkedin.com/in/jatavath-jeevan-7a707824a/"
+        url:"https://www.linkedin.com/in/jatavath-jeevan-12288b31b/"
     },
     {
         label:'Leetcode',

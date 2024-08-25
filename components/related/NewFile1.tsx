@@ -30,7 +30,7 @@ const NewFile1 = () => {
               </div>
               <div className=' flex gap-4 max-sm:pt-4'>
                   <Link href='/' className='link'>Live Demo</Link>
-                  <Link href='/#' className='link'>Github</Link>
+                  <Link href='https://github.com/jeevan8184/MyPortfolio' className='link'>Github</Link>
               </div>
             </div>
         </div>
