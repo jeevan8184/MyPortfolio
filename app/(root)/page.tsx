@@ -140,7 +140,7 @@ export default function HomePage() {
             transition={{ duration: 1 }}
           >
             <div className="w-80 h-80 sm:w-96 sm:h-96 md:w-[450px] md:h-[450px] rounded-full avatar-placeholder flex items-center justify-center avatar-animation">
-              <Image src="/assets/me.jpg" alt="Avatar" width={450} height={450} className="rounded-full" />
+              <Image src="/assets/hero.jpg" alt="Jeevan Jatavath" width={450} height={450} className="rounded-full" />
             </div>
           </motion.div>
         </section>
