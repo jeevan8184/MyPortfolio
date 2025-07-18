@@ -4,7 +4,7 @@
 
   @layer base {
     :root {
-      --background: 0 0% 100%;
+      --background: 238 43% 18%; /* deep blue base */
       --foreground: 222.2 84% 4.9%;
 
       --card: 0 0% 100%;
@@ -36,7 +36,7 @@
     }
 
     .dark {
-      --background: 222.2 84% 4.9%;
+      --background: 238 43% 12%; /* deeper blue for dark mode */
       --foreground: 210 40% 98%;
 
       --card: 222.2 84% 4.9%;
@@ -71,7 +71,9 @@
       @apply border-border m-0 p-0;
     }
     body {
-      @apply bg-background text-foreground;
+      @apply text-foreground;
+      background: #000 !important;
+      min-height: 100vh;
     }
     .flex-center{
       @apply flex items-center justify-center
@@ -156,5 +158,54 @@
       @apply bg-dark-1 rounded-xl placeholder:text-gray-400 text-[16px] px-6 py-6 max-md:w-full focus-visible:ring-0 focus-visible:ring-offset-0 
     }
   }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-18px); }
+  }
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 0.4; }
+  }
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4,0,0.6,1) infinite;
+  }
+
+  @keyframes spin-slow {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .animate-spin-slow {
+    animation: spin-slow 10s linear infinite;
+  }
+
+@keyframes hero-tilt {
+  0%, 100% { transform: rotateY(-8deg); }
+  50% { transform: rotateY(8deg); }
+}
+.animate-hero-tilt {
+  animation: hero-tilt 6s ease-in-out infinite;
+}
+
+@keyframes border-glow {
+  0%, 100% { box-shadow: 0 0 24px 8px rgba(59,130,246,0.25); }
+  50% { box-shadow: 0 0 48px 16px rgba(168,85,247,0.35); }
+}
+.animate-border-glow {
+  animation: border-glow 2.5s ease-in-out infinite;
+}
+
+@keyframes blob-move {
+  0%, 100% { transform: scale(1) translateY(0) translateX(0); }
+  33% { transform: scale(1.08) translateY(-12px) translateX(10px); }
+  66% { transform: scale(0.95) translateY(10px) translateX(-10px); }
+}
+.animate-blob-move {
+  animation: blob-move 8s ease-in-out infinite;
+}
 
 

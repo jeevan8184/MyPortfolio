@@ -34,10 +34,10 @@ export const bottomIcons = [
     },
     {
         Icon: BiMessageSquareDetail,
-        link: '/#contactme', 
-        altLink: '/#acheivements',
-        name: 'contactme',
-        altName: 'acheivements'
+        link: '/#acheivements',
+        altLink: '/#contactme',
+        name: 'acheivements',
+        altName: 'contactme'
     },
 ];
 
@@ -57,7 +57,7 @@ export const MainItems=[
 export const navItems=[
     {
         label:'Projects',
-        link:'/#projects' || '/#projects1',
+        link:'/#projects',
         name:'projects'
     },
     {
