@@ -139,9 +139,19 @@ export default function HomePage() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
           >
-            <div className="w-80 h-80 sm:w-96 sm:h-96 md:w-[450px] md:h-[450px] rounded-full avatar-placeholder flex items-center justify-center avatar-animation">
-              <Image src="/assets/me.jpg" alt="Jeevan Jatavath" width={450} height={450} className="rounded-full" />
-            </div>
+            <div className="relative w-80 h-72 sm:w-96 sm:h-96 md:w-[450px] md:h-[450px] rounded-2xl p-[3px] bg-gradient-to-tr from-purple-500 via-pink-500 to-blue-500 animate-gradient-x">
+  <div className="w-full h-full rounded-2xl overflow-hidden bg-gray-900 flex items-center justify-center shadow-xl transition-transform duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(168,85,247,0.6)]">
+    <Image 
+      src="/assets/me1.jpg" 
+      alt="Jeevan Jatavath" 
+      width={500} 
+      height={500} 
+      className="object-cover w-full h-full rounded-2xl" 
+    />
+  </div>
+</div>
+
+
           </motion.div>
         </section>
 

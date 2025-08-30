@@ -9,6 +9,59 @@ import { projectImgs, EcommerceImgs } from '@/constants';
 
 const projects = [
   {
+    title: "AI Quiz Builder",
+    description: (
+      <>
+        <strong>Overview:</strong> <br/>
+        A modern, full-stack web application for creating, managing, and participating in quizzes—powered by AI for intelligent question generation. Supports real-time participation, analytics, and collaborative features. Users can build quizzes manually or with AI, host live quizzes, and instantly see results.
+      </>
+    ),
+    tech: "React.js | Node.js | MongoDB | Socket.IO | AI (Gemini) | Tailwind CSS | Express.js",
+    video: "/assets/projects/quiz.mp4",
+    isVideo: true,
+    demo: "https://quiz-client-mauve.vercel.app/",
+    github: "https://github.com/jeevan8184/quiz",
+  },
+  {
+  title: "AI Text Summarization Tool",
+  description: (
+    <ul className="list-disc pl-5 text-gray-200">
+      <li>Upload or paste large text documents and generate concise AI-powered summaries.</li>
+      <li>Supports multiple summarization styles: bullet points, short paragraph, and key highlights.</li>
+      <li>Semantic search for finding relevant sections of documents.</li>
+      <li>Multi-language support with automatic detection and summarization.</li>
+    </ul>
+  ),
+  tech: "GenAI | Python | OpenAI API | Streamlit | MongoDB",
+  demo: process.env.NEXT_PUBLIC_SUMMARIZER || "https://ai-text-summarizer-demo.netlify.app/",
+  github: "https://github.com/jeevan8184/text_summarization",
+  images: [
+    "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80", 
+    "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+  ],
+  isCarousel: true,
+}
+,
+{
+  title: "AI PDF Reader & Q&A",
+  description: (
+    <ul className="list-disc pl-5 text-gray-200">
+      <li>Upload PDFs and interact with them using AI-powered Q&A.</li>
+      <li>Automatic summarization of sections or full documents.</li>
+      <li>Semantic search across multi-document uploads for quick information retrieval.</li>
+      <li>Support for research papers, legal docs, and reports with contextual answers.</li>
+    </ul>
+  ),
+  tech: "GenAI | Python | LangChain | OpenAI API | Streamlit | MongoDB",
+  demo: process.env.NEXT_PUBLIC_PDFREADER || "https://ai-pdf-reader-demo.netlify.app/",
+  github: "https://github.com/jeevan8184/pdf_reader",
+  images: [
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=1200&q=80"
+  ],
+  isCarousel: true,
+},
+  {
     title: "Social Media Platform",
     description: (
       <ul className="list-disc pl-5 text-gray-200">
@@ -19,7 +72,7 @@ const projects = [
       </ul>
     ),
     tech: "Nextjs | TailwindCSS | Shadcn | MongoDB | Socket.io",
-    demo: process.env.NEXT_PUBLIC_SOCIAL || "https://example.com/social",
+    demo: process.env.NEXT_PUBLIC_SOCIAL || "https://667a59ed0f5ca3a2eda34c87--dazzling-cranachan-d61ae3.netlify.app/",
     github: "https://github.com/jeevan8184/social",
     images: [
       "/assets/projects/social1.png",
@@ -51,7 +104,7 @@ const projects = [
       </ul>
     ),
     tech: "Nextjs | TailwindCSS | Shadcn | MongoDB | Stripe",
-    demo: process.env.NEXT_PUBLIC_ECOMMERCE || "https://example.com/ecommerce",
+    demo: process.env.NEXT_PUBLIC_ECOMMERCE || "https://66ee62ea5a61e90008f3c219--tiny-entremet-943bbd.netlify.app/",
     github: "https://github.com/jeevan8184/Ecommerce",
     images: [
       "/assets/projects/Ecommerce1.png",
@@ -89,20 +142,6 @@ const projects = [
     github: "https://github.com/jeevan8184/game2",
     video: "/assets/projects/2048game.mp4",
     isVideo: true,
-  },
-  {
-    title: "AI Quiz Builder",
-    description: (
-      <>
-        <strong>Overview:</strong> <br/>
-        A modern, full-stack web application for creating, managing, and participating in quizzes—powered by AI for intelligent question generation. Supports real-time participation, analytics, and collaborative features. Users can build quizzes manually or with AI, host live quizzes, and instantly see results.
-      </>
-    ),
-    tech: "React.js | Node.js | MongoDB | Socket.IO | AI (Gemini/GPT) | Tailwind CSS | Express.js",
-    video: "/assets/projects/quiz.mp4",
-    isVideo: true,
-    demo: "",
-    github: "",
   },
 ];
 
