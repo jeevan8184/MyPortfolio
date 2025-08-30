@@ -142,7 +142,7 @@ export default function HomePage() {
             <div className="relative w-80 h-72 sm:w-96 sm:h-96 md:w-[450px] md:h-[450px] rounded-2xl p-[3px] bg-gradient-to-tr from-purple-500 via-pink-500 to-blue-500 animate-gradient-x">
   <div className="w-full h-full rounded-2xl overflow-hidden bg-gray-900 flex items-center justify-center shadow-xl transition-transform duration-500 hover:scale-105 hover:shadow-[0_0_30px_rgba(168,85,247,0.6)]">
     <Image 
-      src="/assets/me1.jpg" 
+      src="/assets/me2.png" 
       alt="Jeevan Jatavath" 
       width={500} 
       height={500} 
