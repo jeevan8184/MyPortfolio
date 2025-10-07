@@ -23,6 +23,20 @@ const projects = [
     github: "https://github.com/jeevan8184/quiz",
   },
   {
+    title: "GraphX",
+    description: (
+      <>
+        <strong>Overview:</strong> <br/>
+        A dynamic, full-stack data visualization platform that transforms raw data into beautiful, interactive charts. Users can import data from various sources (CSV, JSON, API), customize every aspect of their charts—from colors and fonts to animations and grids—and manage their creations in a personal dashboard. The application also includes premium features like watermark-free downloads, powered by a secure Razorpay subscription system.
+      </>
+    ),
+    tech: "React.js | Node.js | Chart.js | MongoDB | Razorpay API | Framer Motion | Tailwind CSS | Express.js",
+    video: "/assets/projects/graphx.mp4",
+    isVideo: true,
+    demo: "https://graphx-client.vercel.app/",
+    github: "https://github.com/jeevan8184/graphx",
+  },
+  {
   title: "AI Text Summarization Tool",
   description: (
     <ul className="list-disc pl-5 text-gray-200">
