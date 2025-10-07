@@ -9,6 +9,7 @@ import Courses from "./courses/page";
 import ContactMe from "./contactme/page";
 import Footer from "@/components/related/Footer";
 import { FaGithub } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import Achievements from "./acheivements/page";
 import Image from "next/image";
 
@@ -126,11 +127,13 @@ export default function HomePage() {
                 Get In Touch <span>→</span>
               </Link>
               <Link
-                href="#projects"
-                className="px-8 py-3 bg-gray-800/80 text-gray-200 rounded-lg font-medium glow-button flex items-center gap-2 text-base"
-              >
-                View Projects <FaGithub className="text-lg" />
-              </Link>
+  href="https://drive.google.com/uc?export=download&id=1PmAoOeczwiCQzg9mbc2SPSFEO5VO5fJH"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-3 bg-gray-800/80 text-gray-200 rounded-lg font-medium glow-button flex items-center gap-2 text-base hover:bg-gray-700 transition-colors duration-300"
+>
+  Download CV <FaDownload className="text-lg" />
+</Link>
             </motion.div>
           </motion.div>
           <motion.div
